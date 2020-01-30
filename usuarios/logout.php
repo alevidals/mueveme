@@ -1,0 +1,18 @@
+<?php
+session_start();
+
+$_SESSION = [];
+$params = session_get_cookie_params();
+setcookie(
+    session_name(),
+    '',
+    1,
+    $params['path'],
+    $params['domain'],
+    $params['secure'],
+    $params['httponly'],
+);
+setcookie('username', '',  1, '/');
+setcookie('tokenCookie', '', 1, '/');
+session_destroy();
+header('Location: /index.php');

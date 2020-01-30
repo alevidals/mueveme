@@ -1,0 +1,1 @@
+TODO:   - controlar que si está logueado no pueda registrars

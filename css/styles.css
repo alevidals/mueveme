@@ -1,0 +1,104 @@
+.v-divider-white {
+    border-right: 1px solid white;
+    height: 40px;
+}
+
+.v-divider-black {
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    height: 40px;
+}
+
+.nav-text {
+    font-size: 13px;
+    color: white;
+}
+
+.material-icons {
+    color: white;
+}
+
+.nav-button {
+    color: white;
+}
+
+.bg-orange {
+    background-color: #E35614;
+}
+
+.bg-gray {
+    background-color: #E9E9E9;
+}
+
+.orange {
+    color: #E35614;
+}
+
+.white {
+    color: white;
+}
+
+a:hover {
+    color: rgb(146, 61, 21);
+}
+
+.form-control:focus {
+    background-image: linear-gradient(0deg, #E35614 2px, rgba(63, 81, 181, 0) 0),
+        linear-gradient(0deg, rgba(0, 0, 0, .26) 1px, transparent 0);
+
+}
+
+.is-focused [class^=bmd-label] {
+    color: #E35614;
+}
+
+.f-14 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.valid-form {
+    background-image: url('../img/tick.png');
+    background-repeat: no-repeat;
+    background-position: 100% calc(.375em + .21875rem);
+    background-size: calc(.75em + .4375rem) calc(.75em + .4375rem);
+}
+
+.invalid-form {
+    background-image: url('../img/cancel.png');
+    background-repeat: no-repeat;
+    background-position: 100% calc(.375em + .21875rem);
+    background-size: calc(.75em + .4375rem) calc(.75em + .4375rem);
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.vertical-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.avatar {
+    /* vertical-align: middle; */
+    /* margin: auto; */
+    width: 150px;
+    /* height: 50px; */
+    border-radius: 50%;
+}
+
+.page-item.active .page-link {
+    background-color: #E35614;
+}
+
+.page-link {
+    color: #E35614;
+}
+
+
+.admimg {
+    width: 250px;
+    height: 250px;
+}
